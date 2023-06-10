@@ -89,19 +89,19 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Kiran Pachhai
+          Kancharla VamsiKrishna Prasad
           <br />
-          Ashburn, Virginia
+          Hyderabad, Telangana
           <br />
-          United States <br />
-          <span>kiran@pachhai.com</span>
+          India <br />
+          <span>VamsiKrishna.inn@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[39.05188, -77.454014]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[39.05188, -77.454014]}>
               <Popup>
-                Kiran lives in this area, come over for a cup of coffee :)
+              Kancharla VamsiKrishna Prasad lives in this area, come over for a cup of coffee :)
               </Popup>
             </Marker>
           </MapContainer>
