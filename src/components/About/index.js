@@ -3,12 +3,16 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faAws,
-  faEthereum,
-  faGolang,
+  // faAws,
+  // faEthereum,
+  // faGolang,
   faJsSquare,
-  faPython,
+  // faPython,
   faReact,
+  faHtml5,
+  faCss3Alt,
+  faNodeJs,
+  faMdb
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 
@@ -36,52 +40,23 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I'm a very ambitious blockchain engineer, fullstack developer and
-            python and golang expert looking for a role in an established IT
-            company with the opportunity to work with the latest technologies on
-            challenging and diverse projects. And I write Solidity code!
-          </p>
-          <p align="LEFT">
-            I have worked in the software engineering industry for the past 10
-            years. I did my internship at the Laboratory for Atmospheric and
-            Space Physics Lab as a Junior developer working with telemetry and
-            solar data while I was getting my Bachelor’s degree. I then
-            proceeded to work as a software engineer at a company called Avaya
-            where I also contributed a lot to working in various facets of the
-            organization from developing python and bash scripts for automation
-            to directly developing the REST API in Java to performing various
-            linux system administration tasks. In 2016, I left to work as a
-            Devops Engineer in the Cybersecurity department for Lockheed Martin
-            and two years later starting 2018, I started to explore
-            opportunities in the blockchain industry where I have been working
-            ever since.
-          </p>
-          <p>
-            I not only have a wide array of expertise in various programming
-            languages like Golang and Python but I also have enormous experience
-            in writing blog posts on complicated technical topics, making
-            tutorial videos, writing sample codes and also presenting on various
-            topics in front of a large crowd. I also happen to possess excellent
-            problem-solving, verbal and written communication skills and I am
-            also considered a quick learner, a team player and a multitasker. My
-            special talents in being able to take a complicated technical topic
-            and present it in a manner that is very easy to digest to new and
-            experienced developers alike will surely benefit any software
-            company while also providing me a wonderful opportunity to further
-            advance my skills.
-          </p>
-          <p>
-            Part of my success is because I value the importance of the world we
-            live in and continue to make it a better place to the best of my
-            ability. I have a fast learning curve and I love learning new things
-            every single day. I also pay very close attention to detail and as a
-            representative of your team, I would bring focus not only to the
-            value of your services but also to the quality of my own work.
-            Furthermore, I am a smart, hard-working, self-starter who works well
-            in a team environment and loves new challenges while also innovating
-            new ways to do things everyday.
-          </p>
+          <h3 style={{color: "white"}}>
+          My name is Vamsi Krishna, and I'm a Full Stack Developer with a diverse background in the software development field. I have worked as a DOS Consultant, Associate Software Engineer, and currently, I am working as a Freelancer."
+          </h3>
+          <h3 style={{color: "white"}}>
+"I completed my schooling at Ratnam School and pursued my intermediate studies at Sri Gayatri College. Later, I pursued engineering at RGM College, which laid a strong foundation for my career in software development."
+</h3>
+<h3 style={{color: "white"}}>
+"To start my career, I worked as a DOS Consultant at Nxtwave for 8 months. Following that, I joined Marvis IT Services as an Associate Software Engineer, where I spent 1 year. During my time there, I transitioned into a Full Stack Developer role for 6 months. Since March 2023, I have been working as a Freelancer."
+</h3>
+<h3 style={{color: "white"}}>
+"One of my notable achievements is the development of juiceman.in, an end-to-end solution for managing vendor accounts. I took sole responsibility for the development of this platform. Additionally, I have worked on creating a website for Smartrinoverse, an IoT startup, and developed an e-commerce platform called 'Agrilyfe,' empowering farmers to sell their agricultural products. For 'Agrilyfe,' I handled both frontend and backend aspects, building the website from scratch."
+</h3>
+<h3 style={{color: "white"}}>
+"In terms of skills, I have expertise in HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. I am also familiar with tools and frameworks such as Sentry.io, Google Analytics, Craft.js, React Page Editor, Ant Design, Material-UI, and Chakra UI. My focus is on developing user-centric applications with a strong emphasis on functionality and user experience."
+          </h3>
+
+         
         </div>
 
         <div className="stage-cube-cont">
@@ -90,19 +65,19 @@ const About = () => {
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faEthereum} color="#F06529" />
+              <FontAwesomeIcon icon={faJsSquare} color="#F06529" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faPython} color="#28A4D9" />
+              <FontAwesomeIcon icon={faHtml5} color="#28A4D9" />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faAws} color="#DD0031" />
+              <FontAwesomeIcon icon={faCss3Alt} color="#DD0031" />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              <FontAwesomeIcon icon={faNodeJs} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGolang} color="#EC4D28" />
+              <FontAwesomeIcon icon={faMdb} color="#EC4D28" />
             </div>
           </div>
         </div>

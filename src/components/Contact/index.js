@@ -40,20 +40,39 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          <h1>
+          {/* <h1>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
               idx={15}
             />
-          </h1>
-          <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
-          </p>
+          </h1> */}
+          <h1>
+              <span className="chonburi-font green-text">Get</span> in Touch
+            </h1>
+          <h3 style={{color: "white"}}>
+            I am Open for the Opportunities and I am interested in freelance opportunities - especially ambitious or
+            large projects. 
+          </h3>
+          <h3 style={{color: "white"}}>
+          For any information regarding my work kindly, contact me though
+              the following phone number or email address.
+              </h3>
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+          
+            <h3 className="mb-4">
+              <span className="chonburi-font green-text">PhoneNo:</span> 
+              <span style={{color: "white"}}>+91
+              9440471046
+              </span>
+            </h3>
+            <h3 className="mb-4">
+              <span className="chonburi-font green-text">Email:</span>{" "}
+              <span style={{color: "white"}}>
+              vamsikrishna.inn@gmail.com
+              </span>
+            </h3>
+            {/* <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />
@@ -85,7 +104,7 @@ const Contact = () => {
                   <input type="submit" className="flat-button" value="SEND" />
                 </li>
               </ul>
-            </form>
+            </form> */}
           </div>
         </div>
         <div className="info-map">
@@ -97,9 +116,9 @@ const Contact = () => {
           <span>VamsiKrishna.inn@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[39.05188, -77.454014]} zoom={13}>
+          <MapContainer center={[17.5171, 78.5150]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[39.05188, -77.454014]}>
+            <Marker position={[17.5171, 78.5150]}>
               <Popup>
               Kancharla VamsiKrishna Prasad lives in this area, come over for a cup of coffee :)
               </Popup>

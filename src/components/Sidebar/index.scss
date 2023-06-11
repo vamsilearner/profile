@@ -77,6 +77,11 @@
         }
       }
     }
+    a.skills-link {
+      &:after {
+        content: 'SKILLS';
+      }
+    }
 
     a.about-link {
       &:after {

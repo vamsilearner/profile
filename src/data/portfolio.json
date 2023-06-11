@@ -1,46 +1,22 @@
 {
   "portfolio": [
     {
-      "cover": "/portfolio/elastos-hive.png",
-      "title": "Decentralized Storage Node",
-      "description": "Python, Personal Vault, Scripting Mechanism",
-      "url": "https://github.com/elastos/Elastos.Hive.Node"
+      "cover": "/portfolio/juice.png",
+      "title": "JuiceMan",
+      "description": "React, Material Ui",
+      "url": "https://admin.juiceman.in/#/sign-in"
     },
     {
-      "cover": "/portfolio/profile.png",
-      "title": "Profile",
-      "description": "React, Web3, DIDs, NFTs, Personal Vault",
-      "url": "https://www.profile.site"
+      "cover": "/portfolio/food.png",
+      "title": "Food Delivery Website",
+      "description": "React, Html, Css",
+      "url": "https://vkpfood.ccbp.tech/"
     },
     {
-      "cover": "/portfolio/mtrl-token.png",
-      "title": "MTRL(ERC20) on Ethereum",
-      "description": "Solidity, Copper, Crucible Alchemist, Uniswap",
-      "url": "https://www.material.network"
-    },
-    {
-      "cover": "/portfolio/assist-service.png",
-      "title": "Blockchain Assist Service",
-      "description": "Node JS, Typescript, REST API",
-      "url": "https://github.com/tuum-tech/assist-service"
-    },
-    {
-      "cover": "/portfolio/golang-api.png",
-      "title": "Blockchain API",
-      "description": "Golang, Docker, MySQL, Blockchain API",
-      "url": "https://gitlab.com/noderators/api.noderators.org"
-    },
-    {
-      "cover": "/portfolio/golang-cli-tool.png",
-      "title": "Blockchain CLI tool",
-      "description": "Golang, Docker, Blockchain Private Net",
-      "url": "https://github.com/cyber-republic/develap"
-    },
-    {
-      "cover": "/portfolio/django-project.png",
-      "title": "Blockchain Web Dashboard",
-      "description": "Django, Python, Javascript, Postgres",
-      "url": "https://github.com/cyber-republic/elastos-nucleus"
+      "cover": "/portfolio/smart.png",
+      "title": "Smartroniverse Website",
+      "description": "Html, Css, Javascript",
+      "url": "https://smartroniverse.ccbp.tech/"
     }
   ]
 }

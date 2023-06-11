@@ -1,20 +1,22 @@
-import { Link, NavLink } from 'react-router-dom'
-import './index.scss'
-import LogoKP from '../../assets/images/logo-kp.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link, NavLink } from "react-router-dom";
+import "./index.scss";
+import LogoKP from "../../assets/images/logo-kp.png";
+import LogoSubtitle from "../../assets/images/logo_sub.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faHome,
   faSuitcase,
   faUser,
-} from '@fortawesome/free-solid-svg-icons'
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
   faTwitter,
   faYoutube,
-} from '@fortawesome/free-brands-svg-icons'
+  faStickerMule,
+  faStripeS
+} from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -25,6 +27,14 @@ const Sidebar = () => (
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+      </NavLink>
+      <NavLink
+        exact="true"
+        activeclassname="active"
+        className="skills-link"
+        to="/skills"
+      >
+        <FontAwesomeIcon icon={faStripeS} color="#4d4d4e" />
       </NavLink>
       <NavLink
         exact="true"
@@ -62,7 +72,11 @@ const Sidebar = () => (
         </a>
       </li>
       <li>
-        <a target="_blank" rel="noreferrer" href="https://github.com/vamsilearner">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/vamsilearner"
+        >
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
         </a>
       </li>
@@ -77,6 +91,6 @@ const Sidebar = () => (
       </li>
     </ul>
   </div>
-)
+);
 
-export default Sidebar
+export default Sidebar;

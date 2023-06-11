@@ -117,3 +117,14 @@
     }
   }
 }
+
+.chonburi-font {
+  font-family: "Varela", sans-serif !important;
+  letter-spacing: 2px;
+}
+
+.green-text {
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
