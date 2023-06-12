@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio'
 import Skills from './components/Skills'
 
 function App() {
+  // https://gleeful-macaron-6bd1f5.netlify.app/
   return (
     <>
       <Routes>
