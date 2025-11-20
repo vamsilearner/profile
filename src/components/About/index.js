@@ -41,20 +41,15 @@ const About = () => {
             />
           </h1>
           <h3 style={{color: "white"}}>
-          My name is Vamsi Krishna, and I'm a Full Stack Developer with a diverse background in the software development field. I have worked as a Frontend Developer, Associate Software Engineer, and currently, I am working as a Freelancer."
-          </h3>
-          <h3 style={{color: "white"}}>
-"I completed my schooling at Ratnam School and pursued my intermediate studies at Sri Gayatri College. Later, I pursued engineering at RGM College, which laid a strong foundation for my career in software development."
-</h3>
+          "Vamsi Krishna is a Full Stack Developer with 3.5 years of professional experience building modern, scalable web applications. His core strength lies in frontend engineering, specializing in React.js, Next.js, TypeScript, Redux, and high-performance UI development. Vamsi also has solid backend expertise using Node.js, Express.js, PostgreSQL, and hands-on experience in designing secure APIs, microservices, and distributed systems."
+  </h3>
 <h3 style={{color: "white"}}>
-"To start my career, I worked as a Frontend Developer at Nxtwave for 8 months. Following that, I joined Marvis IT Services as an Associate Software Engineer, where I spent 1 year. During my time there, I transitioned into a Full Stack Developer role for 6 months. Since March 2023, I have been working as a Freelancer."
-</h3>
+"Over the course of his career, he has worked on enterprise-level applications, contributing to end-to-end development—covering architecture, frontend, backend, APIs, deployments, and performance optimization. Vamsi has implemented monorepo workflows (Turborepo, Nx), Docker-based deployments, AWS cloud environments, and advanced SSR/SSG strategies, ensuring high availability and excellent user experience."
+  </h3>
 <h3 style={{color: "white"}}>
-"One of my notable achievements is the development of juiceman.in, an end-to-end solution for managing vendor accounts. I took sole responsibility for the development of this platform. Additionally, I have worked on creating a website for Smartrinoverse, an IoT startup, and developed an e-commerce platform called 'Agrilyfe,' empowering farmers to sell their agricultural products. For 'Agrilyfe,' I handled both frontend and backend aspects, building the website from scratch."
-</h3>
-<h3 style={{color: "white"}}>
-"In terms of skills, I have expertise in HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. I am also familiar with tools and frameworks such as Sentry.io, Google Analytics, Craft.js, React Page Editor, Ant Design, Material-UI, and Chakra UI. My focus is on developing user-centric applications with a strong emphasis on functionality and user experience."
-          </h3>
+"He has consistently delivered production-ready features, improved UI performance, optimized database queries, and built reusable component systems. Vamsi has also collaborated closely with cross-functional teams, handled scenario-based problem solving, and contributed to both frontend and backend tech migrations.:
+  </h3>
+
 
          
         </div>
