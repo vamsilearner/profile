@@ -8,6 +8,42 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
 
   const blockchainEngineerArray = [
+    "P",
+    "r",
+    "o",
+    "d",
+    "u",
+    "c",
+    "t",
+    " ",
+    "M",
+    "i",
+    "n",
+    "d",
+    "e",
+    "d",
+    " ",
+    "F",
+    "r",
+    "o",
+    "n",
+    "t",
+    "e",
+    "n",
+    "d",
+    " ",
+    "D",
+    "e",
+    "v",
+    "e",
+    "l",
+    "o",
+    "p",
+    "e",
+    "r",
+    " "
+  ];
+  const webDeveloperArray = [
     "F",
     "u",
     "l",
@@ -20,21 +56,6 @@ const Home = () => {
     "k",
     " ",
     "D",
-    "e",
-    "v",
-    "e",
-    "l",
-    "o",
-    "p",
-    "e",
-    "r",
-  ];
-  const webDeveloperArray = [
-    "W",
-    "e",
-    "b",
-    " ",
-    "d",
     "e",
     "v",
     "e",
@@ -84,7 +105,7 @@ const Home = () => {
             />
           </h1>
           <h2>
-            Fullstack Developer / Frontend Developer / Nodejs Developer
+            Frontend Developer / Fullstack Developer
           </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME

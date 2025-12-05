@@ -20,21 +20,21 @@ const Contact = () => {
     }
   })
 
-  const sendEmail = (e) => {
-    e.preventDefault()
+  // const sendEmail = (e) => {
+  //   e.preventDefault()
 
-    emailjs
-      .sendForm('gmail', 'template_km84l97', form.current, '7fibu7RmIA0CK-JTR')
-      .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
-  }
+  //   emailjs
+  //     .sendForm('gmail', 'template_km84l97', form.current, '7fibu7RmIA0CK-JTR')
+  //     .then(
+  //       () => {
+  //         alert('Message successfully sent!')
+  //         window.location.reload(false)
+  //       },
+  //       () => {
+  //         alert('Failed to send the message, please try again')
+  //       }
+  //     )
+  // }
 
   return (
     <>
@@ -51,8 +51,9 @@ const Contact = () => {
               <span className="chonburi-font green-text">Get</span> in Touch
             </h1>
           <h3 style={{color: "white"}}>
-            I am Open for the Opportunities and I am interested in freelance opportunities - especially ambitious or
-            large projects. 
+            I am Open for the Opportunities 
+           {/* and I am interested in freelance opportunities - especially ambitious or
+            large projects. */}
           </h3>
           <h3 style={{color: "white"}}>
           For any information regarding my work kindly, contact me though
@@ -69,7 +70,7 @@ const Contact = () => {
             <h3 className="mb-4">
               <span className="chonburi-font green-text">Email:</span>{" "}
               <span style={{color: "white"}}>
-              vamsikrishna.inn@gmail.com
+              vamsik.inn@gmail.com
               </span>
             </h3>
             {/* <form ref={form} onSubmit={sendEmail}>
